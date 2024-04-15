@@ -1,0 +1,37 @@
+.NewEquipment{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(254, 216, 255);
+}
+
+.CreateRecord  .MuiTextField-root,
+.NewEquipment .MuiTextField-root{    
+    margin: 20px 20px 0 20px;
+}
+
+.CreateRecord .MuiButton-root,
+.NewEquipment .MuiButton-root{
+    background-color: #8c00ff;
+    font-weight: bold;
+    color: #ffd8ff;
+    margin: 20px;
+}
+
+.CreateRecord{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(254, 216, 255);
+}
+
+
+.NewEquipment h1,
+.CreateRecord h1{
+    margin: auto;
+    color: #8c00ff;
+}

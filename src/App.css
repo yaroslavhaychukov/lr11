@@ -1,0 +1,33 @@
+body{
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+body button {
+  text-decoration: none; 
+  color: inherit; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+body button:hover {
+  background-color: rgba(130, 130, 130, 0.248); 
+}
+header{
+  width: 100%;
+  height: 170px;
+  background: linear-gradient(180deg,#ff0ade  0%, rgba(194, 194, 194, 0) 100%), #ffa8ff;
+}
+
+main{
+  width: 100%;
+  min-height: calc(100vh - 320px);
+}
+footer{
+  width: 100%;
+  height: 150px;  
+  background: linear-gradient(180deg, #ffa8ff  0%, rgba(194, 194, 194, 0) 100%), #ff0ade;
+}

@@ -1,0 +1,39 @@
+.Journal {
+    height: 100%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.Card {
+    width: 100%;
+}
+
+.ExpandedCard {
+    background-color: lightblue;
+}
+
+.Card table {
+    width: 100%;
+}
+
+.Card td {
+    border-right: 1px solid black;
+    text-align: center;
+}
+.CardContainer button{
+    background: transparent;
+    border: none;
+}
+
+.ButJur{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pinkButton.MuiButton-root {
+    margin: 20px;
+    background-color: #ff4ff0;
+  color: #fff; 
+  }

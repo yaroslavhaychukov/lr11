@@ -1,0 +1,66 @@
+.Equipment {
+    position: relative;
+    height: 100%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.Filter {
+    background-color:  #ffa8ff;
+    position: relative;
+}
+
+.FilterBlock {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 20px;
+}
+.FB{
+    margin: 20px 20px 0 20px;
+   background-color: aliceblue;
+   border-radius: 10px;
+   padding: 5px;
+}
+
+.FilterBlock .MuiTextField-root{
+    margin: 20px;
+}
+.FilterBlock .MuiButton-root{
+    background-color: #8c00ff;
+    font-weight: bold;
+    color: #ffd8ff;
+    margin: 20px;
+}
+
+.FilterBlock .MuiInputLabel-root{
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.Hardware{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.Hardware *{
+    margin-left: 10px;
+}
+
+.ModalPage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ModalPage img {
+    height: 500px;
+    width: auto; 
+}
+.ModalText{
+    width: 90%;
+}

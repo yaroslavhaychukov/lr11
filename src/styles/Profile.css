@@ -1,0 +1,31 @@
+
+.user-info, .login-form {
+    width: 100%;
+    height: auto;
+  }
+  .profile-dropdown button{
+    width: 80%;
+    height: 30px;
+    font-size: 14px;
+    color: black;
+    background-color: rgb(255, 203, 90);
+    margin: 10px;
+  }
+  .profile-dropdown input{
+    width: 90%;
+    height: 10px;
+    font-size: 14px;
+    color: black;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .Profile{
+  background-color: transparent;
+  border: none;
+  }
+  .Profile *{  
+    width: 40px;
+  border-radius: 40px;
+  }
+  
